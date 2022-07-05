@@ -105,13 +105,13 @@ a.button {
 	
 }
 .tilesWrap li:hover a.button {
-	transform: translateY(5px);
+	transform: translateY(10px);
 	opacity: 1;
 }
 .tilesWrap li a.button:hover {
 	color: #262a2b;
 }
-.tilesWrap li button:hover:before {
+.tilesWrap li a.button:hover:before {
 	left: 0;
 	opacity: 1;
 }

@@ -15,7 +15,7 @@ const layers = [
         }),
     }),
 ];
-new Map({
+new ol.Map({
     layers: layers,
     target: 'map',
     view: new ol.View({
